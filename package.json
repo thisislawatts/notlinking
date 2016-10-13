@@ -1,0 +1,24 @@
+{
+  "name": "notlinking",
+  "version": "0.1.0",
+  "description": "Hotlinking getting you down?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bcmh/notlinking.git"
+  },
+  "keywords": [
+    "Express",
+    "Hot",
+    "Linking"
+  ],
+  "author": "Luke Watts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcmh/notlinking/issues"
+  },
+  "homepage": "https://github.com/bcmh/notlinking#readme"
+}
