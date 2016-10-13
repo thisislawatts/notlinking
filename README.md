@@ -21,10 +21,12 @@ const express = require('express');
 const notlinking = require('notlinking');
 
 app.use(notlinking())
-```
 
+// Available options
 
-```js
-
+app.use(notlinking({
+	foundryUrl : 'http://yourfavourite.foundry',
+	message    : 'Customisable message for would be thieves'
+}))
 ```
 
