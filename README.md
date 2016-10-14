@@ -3,7 +3,8 @@ Not Linking
 
 Hot linking getting you down? Stop them linking with Not Linking.
 
-This tiny express module checks the Referrer and makes sure that this file is only be referenced by the server it's hosted on.
+Originally built to offer a layer of protection for font files which are [available for self hosting](http://www.trackerfr.ee/).
+This tiny slice of middleware for [express](http://expressjs.com/) checks a request and makes sure that this file is only available if the `Referrer` matches the current server's address.
 
 Installation
 ---
@@ -11,7 +12,6 @@ Installation
 ```
 npm install notlinking
 ```
-
 
 Usage
 ---
@@ -24,8 +24,10 @@ app.use(notlinking());
 
 // Available options
 app.use(notlinking({
-	foundryUrl : 'http://yourfavourite.foundry',
-	message    : 'Customisable message for would be thieves'
+	pattern      : /regex/,
+	publisherUrl : 'http://example.com',
+	message      : 'Customisable message for would be thieves'
 }));
 ```
 
+An ex

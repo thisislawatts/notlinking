@@ -11,9 +11,8 @@
     "url": "git+ssh://git@github.com/bcmh/notlinking.git"
   },
   "keywords": [
-    "Express",
-    "Hot",
-    "Linking"
+    "express",
+    "Hot Linking"
   ],
   "author": "Luke Watts",
   "license": "ISC",
