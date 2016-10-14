@@ -1,6 +1,6 @@
 {
   "name": "notlinking",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Hotlinking getting you down?",
   "main": "index.js",
   "scripts": {
