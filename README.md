@@ -29,5 +29,3 @@ app.use(notlinking({
 	message      : 'Customisable message for would be thieves'
 }));
 ```
-
-An ex
